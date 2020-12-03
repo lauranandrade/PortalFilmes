@@ -1,0 +1,149 @@
+
+.header{
+    background: rgb(152, 208, 240);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.header_area{
+    padding: 20px;
+}
+
+.menu_area{
+    margin-top: 25px;
+}
+
+.menu_area nav a{
+    color:rgb(0, 0, 0);
+}
+
+.menu_area nav a:hover{
+    background-color: rgb(67, 180, 245);
+}
+
+.active{
+    background-color: white !important;
+}
+
+.active2{
+    background-color: rgb(67, 180, 245);
+}
+
+.logo{
+    width: 70px;
+}
+
+.main{
+    
+}
+
+.main .card{
+    margin-bottom: 15px;    
+}
+
+.main_area{
+    margin-bottom: 20px;
+    align-self: center;    
+}
+
+.footer{
+    margin-top: 10px;
+    background: rgb(152, 208, 240);
+    color: rgb(0, 0, 0);
+}
+.footer_area{
+    padding: 20px;
+    text-align: center  ;
+}
+
+.modal-body img{ width: 100%;}
+
+.menu_area2{
+    margin-top: 30px;
+}
+
+.menu_area2 nav a{
+    background-color: #eea010;
+    color:white;
+    margin-bottom: 10px;
+}
+
+.menu_area2 nav a:hover{
+    background-color: #eeb868;
+}
+
+.teste {
+    display: block;
+}
+
+.box {
+    display: inline-block;
+    width: 50%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: rgb(100, 100, 100);
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: rgb(100, 100, 100);
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border-color: black;
+    padding-left: 10px;
+  }
+
+.making-of {
+    background-color: rgb(210, 248, 255);
+}
+
+.novidade-item {
+    display: flex;
+    padding: 20px; 
+    float: left;
+    flex-direction: row;
+    float: left;
+}
+
+.novidades-container {
+    display: flex;
+    flex-direction: row;
+    background-color:  rgb(210, 248, 255);
+    justify-content: space-between;
+    width: 100%;
+}
+
+.novidade-item-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-novidade-container {
+
+}
+
+img {
+    display: block;
+}
+
+.video-container {
+    justify-content: left;
+
+}
